@@ -242,7 +242,7 @@ export const TaskForm: React.FC<TaskFormProps> = ({ isOpen, onClose, onSave, edi
                     <i 
                       className={`fas ${
                         priority === 'high' ? 'fa-radiation' :
-                        priority === 'medium' ? 'fa-triangle-exclamation' : 'fa-shield-cat'
+                        priority === 'medium' ? 'fa-triangle-exclamation' : 'fa-exclamation'
                       } mb-1`}
                         style={{
                           color: isSelected ? Colors.utility.secondaryBackground : priorityColors[priority]
