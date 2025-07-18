@@ -88,10 +88,14 @@ export const TaskForm: React.FC<TaskFormProps> = ({ isOpen, onClose, onSave, edi
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-end z-50">
+    <div 
+      className="fixed inset-0 bg-black bg-opacity-50 flex items-end z-50"
+      onClick={onClose}
+    >
       <div 
         className="w-full max-h-[80vh] rounded-t-2xl overflow-hidden"
         style={{ backgroundColor: Colors.utility.primaryBackground }}
+        onClick={(e) => e.stopPropagation()}
       >
         <div className="p-4 border-b border-gray-200">
           <div className="flex items-center justify-between">

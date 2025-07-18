@@ -125,10 +125,14 @@ export const SortModal: React.FC<SortModalProps> = ({
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
+    <div 
+      className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4"
+      onClick={onClose}
+    >
       <div 
         className="rounded-2xl w-full max-w-md max-h-[80vh] overflow-hidden"
         style={{ backgroundColor: Colors.utility.primaryBackground }}
+        onClick={(e) => e.stopPropagation()}
       >
         <div className="p-4 border-b border-gray-200">
           <div className="flex items-center justify-between">
