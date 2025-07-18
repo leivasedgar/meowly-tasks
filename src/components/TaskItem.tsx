@@ -13,7 +13,7 @@ interface TaskItemProps {
 const priorityConfig = {
   high: { color: '#ef7385', icon: 'fa-radiation' },
   medium: { color: '#ffc75b', icon: 'fa-triangle-exclamation' },
-  low: { color: '#B4DD7F', icon: 'fa-info' }
+  low: { color: '#B4DD7F', icon: 'fa-shield-cat' }
 };
 
 export const TaskItem: React.FC<TaskItemProps> = ({ task, onEdit, onDelete, onToggleStatus, onTagClick }) => {
