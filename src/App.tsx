@@ -183,7 +183,7 @@ function App() {
               {activeTab === 'todo' ? 'No mice to chase! Enjoy a nap.' : 'No mice to chase! Enjoy a nap'}
             </p>
             <p className="text-base text-gray-400 mt-1 font-nunito font-medium">
-              {activeTab === 'todo' ? 'Tap the + button to add a new task' : 'Complete some tasks to see them here'}
+              {activeTab === 'todo' ? 'Tap the + button to unroll some yarn (add a task)!' : 'Complete some tasks to see them here'}
             </p>
           </div>
         ) : (
