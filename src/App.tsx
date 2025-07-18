@@ -180,10 +180,10 @@ function App() {
           <div className="text-center py-12">
             <i className={`fas ${activeTab === 'todo' ? 'fa-clipboard-list' : 'fa-clipboard-check'} text-4xl text-gray-300 mb-4`} />
             <p className="text-gray-500 font-nunito font-medium text-base">
-              {activeTab === 'todo' ? 'No mice to chase! Enjoy a nap.' : 'No mice to chase! Enjoy a nap'}
+              {activeTab === 'todo' ? 'No mice to chase! Enjoy a nap. <i className="fas fa-sort text-gray-600" />' : 'No mice to chase! Enjoy a nap'}
             </p>
             <p className="text-base text-gray-400 mt-1 font-nunito font-medium">
-              {activeTab === 'todo' ? 'Tap the + button to unroll some yarn (add a task)!' : 'Complete some tasks to see them here'}
+              {activeTab === 'todo' ? 'Tap the + button to add a new task' : 'Complete some tasks to see them here'}
             </p>
           </div>
         ) : (
