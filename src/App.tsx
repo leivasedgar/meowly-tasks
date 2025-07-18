@@ -178,7 +178,7 @@ function App() {
       <div className="max-w-md mx-auto px-4 pb-20">
         {displayedTasks.length === 0 ? (
           <div className="text-center py-12">
-            <i className={`fas ${activeTab === 'todo' ? 'fa-paw' : 'fa-paw'} text-4xl text-gray-300 mb-4`} />
+            <i className={`fas ${activeTab === 'todo' ? 'fa-paw' : 'fa-paw'} text-6xl text-gray-300 mb-4`} />
             <p className="text-gray-500 font-nunito font-medium text-base">
               {activeTab === 'todo' ? 'No mice to chase! Enjoy a nap.'  : 'No mice to chase! Enjoy a nap'} 
             </p>
