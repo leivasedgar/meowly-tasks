@@ -230,7 +230,7 @@ export const TaskForm: React.FC<TaskFormProps> = ({ isOpen, onClose, onSave, edi
                 <button
                   key={priority}
                   type="button"
-                  onClick={() => setFormData({ ...formData, priority })}
+                  onClick={() => setFfaormData({ ...formData, priority })}
                     className="p-3 rounded-lg border-2 transition-colors"
                     style={{
                       backgroundColor: isSelected ? priorityColors[priority] : Colors.utility.secondaryBackground,
