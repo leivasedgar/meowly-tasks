@@ -30,6 +30,33 @@ A purr-fectly delightful cat-themed to-do application that helps you chase down 
 
 Check out the live application: [Meowly Tasks](https://meowlytasks.netlify.app)
 
+## 🎮 How to Use
+
+1. **Adding Tasks**: Click the fish button (🐟) to create a new task
+2. **Managing Tasks**: 
+   - Swipe right to edit a task
+   - Swipe left to delete a task
+   - Tap the checkbox to mark as complete
+3. **Organizing**: Use the filter (🔍) and sort (📊) buttons to organize your view
+4. **Switching Views**: Toggle between "To-Do" and "Completed" tabs
+
+## 🎯 Key Features Explained
+
+### Priority System
+- **High Priority** (🚨): Urgent tasks that need immediate attention
+- **Medium Priority** (⚠️): Important but not urgent tasks
+- **Low Priority** (❗): Nice-to-have tasks for when you have time
+
+### Smart Filtering
+- Filter by multiple priorities simultaneously
+- Search by tags with partial matching
+- Date range filtering for time-sensitive planning
+
+### Responsive Design
+- Mobile-first approach with touch-friendly interactions
+- Swipe gestures for quick task management
+- Optimized for both portrait and landscape orientations
+
 ## 🛠️ Technology Stack
 
 - **Frontend**: React 18 with TypeScript
@@ -103,33 +130,6 @@ npm run build
 ```
 
 The built files will be in the `dist` directory, ready for deployment.
-
-## 🎮 How to Use
-
-1. **Adding Tasks**: Click the fish button (🐟) to create a new task
-2. **Managing Tasks**: 
-   - Swipe right to edit a task
-   - Swipe left to delete a task
-   - Tap the checkbox to mark as complete
-3. **Organizing**: Use the filter (🔍) and sort (📊) buttons to organize your view
-4. **Switching Views**: Toggle between "To-Do" and "Completed" tabs
-
-## 🎯 Key Features Explained
-
-### Priority System
-- **High Priority** (🚨): Urgent tasks that need immediate attention
-- **Medium Priority** (⚠️): Important but not urgent tasks
-- **Low Priority** (❗): Nice-to-have tasks for when you have time
-
-### Smart Filtering
-- Filter by multiple priorities simultaneously
-- Search by tags with partial matching
-- Date range filtering for time-sensitive planning
-
-### Responsive Design
-- Mobile-first approach with touch-friendly interactions
-- Swipe gestures for quick task management
-- Optimized for both portrait and landscape orientations
 
 ## 🤝 Contributing
 
