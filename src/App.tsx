@@ -183,7 +183,7 @@ function App() {
               {activeTab === 'todo' ? 'No mice to chase! Enjoy a nap.'  : 'No mice to chase! Enjoy a nap'} 
             </p>
             <p className="text-base text-gray-400 mt-1 font-nunito font-medium">
-              {activeTab === 'todo' ? 'Tap the + button to add a new task' : 'Complete some tasks to see them here'}
+              {activeTab === 'todo' ? 'Tap the fish button to add a new task' : 'Complete some tasks to see them here'}
             </p>
           </div>
         ) : (
@@ -214,7 +214,7 @@ function App() {
           color: Colors.utility.secondaryBackground
         }}
       >
-        <i className="fas fa-feather-pointed text-xl" />
+        <i className="fas fa-fish text-xl" />
       </button>
 
       {/* Task Form Modal */}
