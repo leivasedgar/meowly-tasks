@@ -180,7 +180,7 @@ function App() {
           <div className="text-center py-12">
             <i className={`fas ${activeTab === 'todo' ? 'fa-paw' : 'fa-paw'} text-6xl text-gray-300 mb-4`} />
             <p className="text-gray-500 font-nunito font-medium text-base">
-              {activeTab === 'todo' ? 'No mice to chase! Enjoy a nap.'  : 'No mice to chase! Enjoy a nap'} 
+              {activeTab === 'todo' ? 'No mice to chase! Enjoy a nap'  : 'No mice to chase! Enjoy a nap'} 
             </p>
             <p className="text-base text-gray-400 mt-1 font-nunito font-medium">
               {activeTab === 'todo' ? 'Tap the fish button to add a new task' : 'Complete some tasks to see them here'}
